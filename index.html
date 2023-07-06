@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferid Memmedli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            height: 100vh;
+            padding: 0%;
+            margin: 0;
+        }
+        #arxafon{
+            height: 100%;
+        }
+        p{
+            color: white;
+            font-size: 35px;
+            font-family: 'Belanosima', sans-serif;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="arxafon">
+        <p>Ferid Kolani</p>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#arxafon",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+});
+</script>
+</body>
+</html>
